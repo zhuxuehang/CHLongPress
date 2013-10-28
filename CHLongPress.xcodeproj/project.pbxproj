@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		671698D5181EC54A00135FDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671698D4181EC54A00135FDE /* UIKit.framework */; };
+		671698D7181EC54A00135FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671698D6181EC54A00135FDE /* Foundation.framework */; };
+		671698D9181EC54A00135FDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671698D8181EC54A00135FDE /* CoreGraphics.framework */; };
+		671698DF181EC54A00135FDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 671698DD181EC54A00135FDE /* InfoPlist.strings */; };
+		671698E1181EC54A00135FDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 671698E0181EC54A00135FDE /* main.m */; };
+		671698E5181EC54A00135FDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 671698E4181EC54A00135FDE /* AppDelegate.m */; };
+		671698E7181EC54A00135FDE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 671698E6181EC54A00135FDE /* Default.png */; };
+		671698E9181EC54A00135FDE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 671698E8181EC54A00135FDE /* Default@2x.png */; };
+		671698EB181EC54A00135FDE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 671698EA181EC54A00135FDE /* Default-568h@2x.png */; };
+		671698EE181EC54A00135FDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671698ED181EC54A00135FDE /* ViewController.m */; };
+		671698F1181EC54A00135FDE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 671698EF181EC54A00135FDE /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		671698D1181EC54A00135FDE /* CHLongPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHLongPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		671698D4181EC54A00135FDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		671698D6181EC54A00135FDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		671698D8181EC54A00135FDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		671698DC181EC54A00135FDE /* CHLongPress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHLongPress-Info.plist"; sourceTree = "<group>"; };
+		671698DE181EC54A00135FDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		671698E0181EC54A00135FDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		671698E2181EC54A00135FDE /* CHLongPress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHLongPress-Prefix.pch"; sourceTree = "<group>"; };
+		671698E3181EC54A00135FDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		671698E4181EC54A00135FDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		671698E6181EC54A00135FDE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		671698E8181EC54A00135FDE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		671698EA181EC54A00135FDE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		671698EC181EC54A00135FDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		671698ED181EC54A00135FDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		671698F0181EC54A00135FDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		671698CE181EC54A00135FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671698D5181EC54A00135FDE /* UIKit.framework in Frameworks */,
+				671698D7181EC54A00135FDE /* Foundation.framework in Frameworks */,
+				671698D9181EC54A00135FDE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		671698C8181EC54A00135FDE = {
+			isa = PBXGroup;
+			children = (
+				671698DA181EC54A00135FDE /* CHLongPress */,
+				671698D3181EC54A00135FDE /* Frameworks */,
+				671698D2181EC54A00135FDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		671698D2181EC54A00135FDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				671698D1181EC54A00135FDE /* CHLongPress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		671698D3181EC54A00135FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				671698D4181EC54A00135FDE /* UIKit.framework */,
+				671698D6181EC54A00135FDE /* Foundation.framework */,
+				671698D8181EC54A00135FDE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		671698DA181EC54A00135FDE /* CHLongPress */ = {
+			isa = PBXGroup;
+			children = (
+				671698E3181EC54A00135FDE /* AppDelegate.h */,
+				671698E4181EC54A00135FDE /* AppDelegate.m */,
+				671698EC181EC54A00135FDE /* ViewController.h */,
+				671698ED181EC54A00135FDE /* ViewController.m */,
+				671698EF181EC54A00135FDE /* ViewController.xib */,
+				671698DB181EC54A00135FDE /* Supporting Files */,
+			);
+			path = CHLongPress;
+			sourceTree = "<group>";
+		};
+		671698DB181EC54A00135FDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				671698DC181EC54A00135FDE /* CHLongPress-Info.plist */,
+				671698DD181EC54A00135FDE /* InfoPlist.strings */,
+				671698E0181EC54A00135FDE /* main.m */,
+				671698E2181EC54A00135FDE /* CHLongPress-Prefix.pch */,
+				671698E6181EC54A00135FDE /* Default.png */,
+				671698E8181EC54A00135FDE /* Default@2x.png */,
+				671698EA181EC54A00135FDE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		671698D0181EC54A00135FDE /* CHLongPress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671698F4181EC54A00135FDE /* Build configuration list for PBXNativeTarget "CHLongPress" */;
+			buildPhases = (
+				671698CD181EC54A00135FDE /* Sources */,
+				671698CE181EC54A00135FDE /* Frameworks */,
+				671698CF181EC54A00135FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHLongPress;
+			productName = CHLongPress;
+			productReference = 671698D1181EC54A00135FDE /* CHLongPress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		671698C9181EC54A00135FDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = hang;
+			};
+			buildConfigurationList = 671698CC181EC54A00135FDE /* Build configuration list for PBXProject "CHLongPress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 671698C8181EC54A00135FDE;
+			productRefGroup = 671698D2181EC54A00135FDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				671698D0181EC54A00135FDE /* CHLongPress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		671698CF181EC54A00135FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671698DF181EC54A00135FDE /* InfoPlist.strings in Resources */,
+				671698E7181EC54A00135FDE /* Default.png in Resources */,
+				671698E9181EC54A00135FDE /* Default@2x.png in Resources */,
+				671698EB181EC54A00135FDE /* Default-568h@2x.png in Resources */,
+				671698F1181EC54A00135FDE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		671698CD181EC54A00135FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671698E1181EC54A00135FDE /* main.m in Sources */,
+				671698E5181EC54A00135FDE /* AppDelegate.m in Sources */,
+				671698EE181EC54A00135FDE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		671698DD181EC54A00135FDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671698DE181EC54A00135FDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		671698EF181EC54A00135FDE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671698F0181EC54A00135FDE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		671698F2181EC54A00135FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		671698F3181EC54A00135FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		671698F5181EC54A00135FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHLongPress/CHLongPress-Prefix.pch";
+				INFOPLIST_FILE = "CHLongPress/CHLongPress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		671698F6181EC54A00135FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHLongPress/CHLongPress-Prefix.pch";
+				INFOPLIST_FILE = "CHLongPress/CHLongPress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		671698CC181EC54A00135FDE /* Build configuration list for PBXProject "CHLongPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671698F2181EC54A00135FDE /* Debug */,
+				671698F3181EC54A00135FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671698F4181EC54A00135FDE /* Build configuration list for PBXNativeTarget "CHLongPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671698F5181EC54A00135FDE /* Debug */,
+				671698F6181EC54A00135FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 671698C9181EC54A00135FDE /* Project object */;
+}
